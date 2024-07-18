@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: image(background-image);
+}
+
+header {
+    background-color: #1A72E8;
+}
+
+header nav {
+    margin-left: 20px;
+}
+
+header img {
+    padding-top: 5px;
+    max-width: 5%;
+    min-width: 3%;
+    margin-left: 78px;
+}
+
+header a {
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 10px 10px;
+    transition-duration: .3s;
+}
+
+header a:hover {
+    color: #90b4e4;
+}
+
+main {
+    background-color: white;
+    max-width: 780px;
+    min-width: 10px;
+    margin: auto;
+    padding: 30px;
+}
+
+main img#logo {
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 300px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+    font-family: "Anton SC", sans-serif;;
+}
+
+main #ptempo {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+
+main h2 {
+    font-size: 2.5em;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+}
+
+main p {
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 1.3em;
+    font-family: serif;
+    color: rgb(71, 71, 71);
+    line-height: 1.7em;
+}
+
+main img {
+    width: 100%;
+    margin: auto;
+}
+
+main a {
+    color: rgb(71, 71, 71);
+    text-decoration: underline red;
+}
+
+main a:hover {
+    text-decoration: underline rgb(71, 71, 71);
+    transition-duration: .5s;
+}
